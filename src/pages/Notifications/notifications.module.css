@@ -1,0 +1,22 @@
+.notificationCard {
+  background: #ffffff;
+  border-radius: 0px 12px 12px 0px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notificationContent{
+    display: flex;
+}
+
+.notificationText{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.time{
+    margin-right: 1rem;
+    display: flex;
+    align-items: flex-end;
+}

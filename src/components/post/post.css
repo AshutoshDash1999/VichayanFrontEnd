@@ -1,0 +1,130 @@
+.post1 {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+  background-color: white;
+}
+.btn-comment {
+  outline: none !important;
+  border: none;
+  cursor: pointer;
+}
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postUsername {
+  color: #c12179;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate {
+  font-size: 12px;
+  color: #acacac;
+  margin: -4px 10px;
+  font-size: 12px;
+}
+
+.postCenter {
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.pointer {
+  cursor: pointer;
+}
+.div-comment {
+  background-color: #f2f2f2;
+  border-radius: 10px !important;
+  flex-grow: 1;
+}
+.post-bottom-right {
+  display: flex !important;
+}
+.job-description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 12px;
+  font-weight: initial;
+}
+.comment-user {
+  color: black;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.actual-comment {
+  font-size: 18px;
+  padding-top: 5px;
+}
+.div-cont-lsc {
+  /* margin-top: 1px solid black !important; */
+}
+
+.postImg {
+  /* margin-top: 20px; */
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.div-image-wrapper {
+  width: 100% !important;
+  height: 250px;
+}
+
+.postBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postLikeCounter {
+  font-size: 15px;
+}
+
+.postCommentText {
+  cursor: pointer;
+  border-bottom: 1px dashed gray;
+  font-size: 15px;
+}

@@ -1,0 +1,120 @@
+.messageCard {
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.messageCardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.isActiveCard {
+  border-radius: 12px;
+  background: #f15d23;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+.isNameActive{
+  color: #fff!important;
+}
+
+.dateTime {
+  text-align: end;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.chatSection {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.unreadMessages {
+  background-color: #dc0000;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.allChats {
+  overflow-y: auto;
+  height: 75vh;
+}
+
+.allChats::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.allChats::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+.allChats::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10rem;
+}
+
+.allChats::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.inputRow {
+  margin: 1rem;
+  border: 0.1rem solid #8f8c8c;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.sendMessage {
+  background: #f15d23 !important;
+  font-size: 1.2rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px !important;
+}
+
+.chats {
+  height: 40vh;
+  position: relative;
+  overflow-y: auto;
+}
+
+.senderChat {
+  background: #f4f4f4;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.receiverChat {
+  background: #FFEBE4;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.receiverText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.senderText{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.attachInputIcon{
+  font-size: 1.8rem!important;
+  color: #8F8C8C;
+}
+
+.sendInputIcon{
+  font-size: 1.5rem!important;
+}

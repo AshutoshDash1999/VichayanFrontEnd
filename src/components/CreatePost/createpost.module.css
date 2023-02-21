@@ -1,0 +1,29 @@
+.textArea {
+  margin: 1rem 0;
+}
+
+.postBtn {
+  background: #f15d23;
+  border: 1px solid #f15d23;
+  border-radius: 12px;
+  color: #fff;
+  width: 40%;
+}
+
+.createPostButton {
+  position: fixed;
+  bottom: 5rem;
+  right: 30%;
+  background: #f15d23!important;
+  border: none;
+  z-index: 10;
+}
+
+.modal{
+  border-radius: 0 0 0.8rem 0.8rem!important;
+}
+
+.postIcon {
+  color: #8f8c8c;
+  font-size: 1.5rem!important;
+}

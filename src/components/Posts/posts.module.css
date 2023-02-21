@@ -1,0 +1,28 @@
+.posts {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  /* width: 75%; */
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userBio {
+  text-align: left;
+}
+
+.postText {
+  text-align: left;
+}
+
+.postImage {
+  border-radius: 0.8rem;
+}
+
+.postIcon {
+  color: #8f8c8c;
+  font-size: 1.8rem!important;
+}

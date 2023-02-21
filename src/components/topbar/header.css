@@ -1,0 +1,34 @@
+.icons-header-custom {
+  color: white;
+  font-size: 30px !important;
+}
+.icons-header-custom-badge {
+  margin-right: 20px;
+  color: #c12179;
+}
+.badge-options {
+  border-radius: 10px !important;
+  padding: 3px 8px 3px 8px;
+  display: flex;
+  background-color: #c12179;
+  align-items: center;
+}
+.btn-comment-new {
+  outline: none !important;
+  border: none;
+  cursor: pointer;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.flex-header-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .div-hide-main-class {
+    display: none;
+  }
+}

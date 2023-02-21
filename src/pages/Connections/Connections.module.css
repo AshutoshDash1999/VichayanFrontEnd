@@ -1,0 +1,36 @@
+.connectionCard {
+  background: #ffffff;
+  box-shadow: 0rem 0.1875rem 0.25rem rgba(0, 0, 0, 0.26);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width:20rem;
+}
+
+.acceptConnection {
+  background: #f15d23;
+  border: 1px solid #f15d23;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.acceptConnection:hover {
+  background: #e94c0e;
+  color: #ffffff;
+  border: 1px solid #f15d23;
+}
+
+.rejectConnection {
+  background: #fdeae2;
+  border: 1px solid #f15d23;
+  border-radius: 8px;
+}
+
+.textContent{
+  text-align: left;
+  font-weight: 300!important;
+  margin: 0!important;
+}
+
+.actionDiv{
+  margin-top: 0.5rem;
+}

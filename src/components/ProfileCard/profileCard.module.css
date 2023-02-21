@@ -1,0 +1,19 @@
+.profileCard {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  width: 20rem;
+}
+
+.profileStats {
+  color: #f15d23;
+}
+
+.followingBtn {
+  background: rgba(241, 93, 35, 0.16);
+  border: 1px solid #f15d23;
+  border-radius: 12px;
+  margin-top: 1rem;
+  color: #f15d23;
+}
